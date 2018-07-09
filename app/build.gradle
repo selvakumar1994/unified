@@ -5,7 +5,6 @@ plugins {
 }
 apply plugin: 'com.android.application'
 apply plugin: 'jacoco'
-apply plugin: 'org.sonarqube'
 jacoco {
     toolVersion = "$jacocoVersion"
 }
