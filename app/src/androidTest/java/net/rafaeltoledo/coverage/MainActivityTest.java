@@ -30,6 +30,6 @@ public class MainActivityTest {
         onView(withId(R.id.button)).perform(click());
 
         onView(withId(R.id.text)).check(matches(withText("Hello World!")));
-        onView(withId(R.id.hide)).perform(click());
+        //onView(withId(R.id.hide)).perform(click());
     }
 }
